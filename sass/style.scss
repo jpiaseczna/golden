@@ -45,7 +45,7 @@ a {
 	text-align: center;
 	color: #777777;
 	margin-top: 0;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 /* Header */
@@ -149,4 +149,32 @@ a {
 	color: #777777;
 	text-align: center;
 	margin-top: 0;
+}
+
+/* Portfolio */
+
+.portfolio .box {
+	text-align: center;
+	margin: 30px;
+}
+.portfolio h4 {
+	font-family: $font-title;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 75px;
+	text-align: center;
+	color: #333333;
+	margin: 0;
+	padding-bottom: 0;
+}
+
+.portfolio p {
+	font-family: $font-subtitle;
+	font-style: italic;
+	font-size: 18px;
+	color: #737373;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 15px;
+	padding: 0;
 }
