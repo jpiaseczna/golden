@@ -1,0 +1,76 @@
+/* Variables */
+/* Global */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+/* Header */
+.splash {
+  background-image: url("https://i.postimg.cc/X7T2cQd7/Background-Image.jpg");
+  width: 1400px;
+  height: 700px;
+  position: relative;
+}
+
+.logo {
+  font-family: "Wisdom Script AI", serif;
+  color: #fed136;
+  font-size: 26px;
+  margin-top: 40px;
+}
+
+.navigation ul {
+  list-style-type: none;
+}
+
+.navigation ul li {
+  display: inline-block;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 40px 20px 0 25px;
+}
+
+.splash .col {
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  transform: translateY(65%);
+  right: 5%;
+}
+
+.splash h2 {
+  font-family: "Droid Serif", serif;
+  font-style: italic;
+  font-size: 40px;
+  text-transform: capitalize;
+}
+
+.splash h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 75px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.btn {
+  display: inline-block;
+  height: 65px;
+  width: 240px;
+  background-color: #fed136;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 65px;
+}
+/*# sourceMappingURL=style.css.map */
