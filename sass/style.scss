@@ -178,3 +178,36 @@ a {
 	margin-bottom: 15px;
 	padding: 0;
 }
+
+/* Footer */
+
+.page-footer {
+	height: 120px;
+}
+
+.footer-text{
+	font-family: $font-title;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 120px;
+	color: #555555;
+}
+
+.page-footer .col-md-4 li {
+	display: inline-block;
+	list-style-type: none;
+	font-size: 0;
+	line-height: 120px;
+}
+
+.page-footer .col-md-4 li i {
+	font-size: 18px;
+	text-align: center;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #fff;
+	background-color: #222222;
+	margin-right: 10px;
+}
