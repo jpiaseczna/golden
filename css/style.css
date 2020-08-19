@@ -206,6 +206,9 @@ a {
 
 /* Media */
 @media (max-width: 767px) {
+  .splash {
+    width: 100%;
+  }
   .title-wrapper h1 {
     font-size: 30px;
   }
@@ -221,8 +224,8 @@ a {
     -ms-flex-direction: column;
         flex-direction: column;
     font-size: 20px;
-    text-align: left;
-    padding: 5px 0;
+    text-align: right;
+    padding: 0;
     margin: 0;
   }
   .services p, .footer-text {
