@@ -6,6 +6,8 @@
 
 body {
   background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -44,8 +46,9 @@ a {
 /* Header */
 .splash {
   background-image: url("https://i.postimg.cc/X7T2cQd7/Background-Image.jpg");
-  width: 1400px;
+  width: 100%;
   height: 650px;
+  background-size: cover;
   position: relative;
 }
 
